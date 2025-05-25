@@ -341,119 +341,17 @@ def update_credits(world):
     credits.end_credits(END_CREDITS_DELAY_1, END_CREDITS_DELAY_2)
 
     credits.begin_titles(BEGIN_TITLES_DELAY)
-    credits.add_title(0x80, 0x00, 0x08, 'ORIGINAL CONCEPT')
+    credits.add_title(0x80, 0x00, 0x08, 'CUTEST SHIP')
     credits.end_titles(END_TITLES_DELAY)
 
     credits.begin_credits()
-    credits.add_credit(0x80, 0x80, 0xc0, 'ABYSSONYM')
-    credits.add_credit(0x80, 0x00, 0xc2, 'LACKATTACK')
-    credits.end_credits(END_CREDITS_DELAY_1, END_CREDITS_DELAY_2)
-
-    credits.begin_titles(BEGIN_TITLES_DELAY)
-    credits.add_title(0x80, 0x00, 0x08, 'DEVELOPMENT')
-    credits.end_titles(END_TITLES_DELAY)
-
-    credits.begin_credits()
-    credits.add_credit(0x80, 0x80, 0xc0, 'ALANIM    DORKMASTER FLEK')
-    credits.add_credit(0x80, 0x40, 0x81, 'YAKIBOMB  SWINCH  PATCDR')
-    credits.add_credit(0x80, 0x00, 0xc2, 'ATBIGELOW')
-    credits.end_credits(END_CREDITS_DELAY_1, END_CREDITS_DELAY_2)
-
-    credits.begin_credits()
-    credits.add_credit(0x80, 0x80, 0xc0, 'PIDGEZERO_ONE')
-    credits.add_credit(0x80, 0x40, 0x81, 'SNESCHALMERS')
-    credits.add_credit(0x80, 0x00, 0xc2, 'AMAZING AMPHAROS')
-    credits.end_credits(END_CREDITS_DELAY_1, END_CREDITS_DELAY_2)
-
-    credits.begin_titles(BEGIN_TITLES_DELAY)
-    credits.add_title(0x80, 0x00, 0x08, 'ARTWORK')
-    credits.end_titles(END_TITLES_DELAY)
-
-    credits.begin_credits()
-    credits.add_credit(0x80, 0x80, 0xc0, 'DEVILING  SEANCASS  SMBAI')
-    credits.add_credit(0x80, 0x40, 0x81, 'MYOHMYKE      AARONDOBBE')
-    credits.add_credit(0x80, 0x00, 0xc2, 'EGGTALK        HERRSHAUN')
-    credits.end_credits(END_CREDITS_DELAY_1, END_CREDITS_DELAY_2)
-
-    credits.begin_credits()
-    credits.add_credit(0x80, 0x40, 0x81, 'PIDGEZERO_ONE')
-    credits.end_credits(END_CREDITS_DELAY_1, END_CREDITS_DELAY_2)
-
-    credits.begin_titles(BEGIN_TITLES_DELAY)
-    credits.add_title(0x80, 0x00, 0x08, 'QUALITY ASSURANCE')
-    credits.end_titles(END_TITLES_DELAY)
-
-    credits.begin_credits()
-    credits.add_credit(0x80, 0x80, 0xc0, 'SEANCASS  FLARERDB  SMBAI')
-    credits.add_credit(0x80, 0x40, 0x81, 'LOCKECOLELIVE  GOZENGATTA')
-    credits.add_credit(0x80, 0x00, 0xc2, 'CAVIN       INTHENAMEOFDT')
-    credits.end_credits(END_CREDITS_DELAY_1, END_CREDITS_DELAY_2)
-
-    credits.begin_titles(BEGIN_TITLES_DELAY)
-    credits.add_title(0x80, 0x00, 0x08, 'LOGIC MAPPING')
-    credits.end_titles(END_TITLES_DELAY)
-
-    credits.begin_credits()
-    credits.add_credit(0x80, 0x80, 0xc0, 'GUNTHERRIDEL     XELECIUM')
-    credits.add_credit(0x80, 0x40, 0x81, 'MINAMIYO       CALERELIYA')
-    credits.add_credit(0x80, 0x00, 0xc2, 'SPACE COW      SAXXON FOX')
-    credits.end_credits(END_CREDITS_DELAY_1, END_CREDITS_DELAY_2)
-
-    credits.begin_credits()
-    credits.add_credit(0x80, 0x80, 0xc0, 'ATEATREE INVARIEL LYLOVIR')
-    credits.add_credit(0x80, 0x40, 0x81, 'GOODMORNINGCRONO')
-    credits.add_credit(0x80, 0x00, 0xc2, 'ANTHONY MULBERRY')
+    credits.add_credit(0x80, 0x80, 0xc0, 'VERNIY')
     credits.end_credits(END_CREDITS_DELAY_1, END_CREDITS_DELAY_2)
 
     credits.begin_titles(BEGIN_TITLES_DELAY)
     credits.add_title(0x80, 0x00, 0x08, 'SPECIAL THANKS')
     credits.end_titles(END_TITLES_DELAY)
 
-    credits.begin_credits()
-    credits.add_credit(0x80, 0x80, 0xc0, 'DARKKEFKA       DOOMSDAY')
-    credits.add_credit(0x80, 0x40, 0x81, 'GIANGURGOLO        OMEGA')
-    credits.add_credit(0x80, 0x00, 0xc2, 'FFIV FREE ENTERPRISE')
-    credits.end_credits(END_CREDITS_DELAY_1, END_CREDITS_DELAY_2)
-
-    credits.begin_credits()
-    credits.add_credit(0x80, 0x80, 0xc0, 'ALTTP RANDOMIZER')
-    credits.add_credit(0x80, 0x40, 0x81, 'OOT RANDOMIZER')
-    credits.end_credits(END_CREDITS_DELAY_1, END_CREDITS_DELAY_2)
-
-    # Clear the titles
-    credits.begin_titles(BEGIN_TITLES_DELAY)
-    credits.end_titles(END_TITLES_DELAY)
-
-    credits.begin_credits()
-    credits.add_credit(0x80, 0x80, 0xc0, 'THANK YOU SMRPG COMMUNITY.')
-    credits.end_credits(END_CREDITS_DELAY_1, END_CREDITS_DELAY_2)
-
-    credits.begin_credits()
-    credits.add_credit(0x80, 0x80, 0xc0, 'WITHOUT YOU...')
-    credits.end_credits(END_CREDITS_DELAY_1, END_CREDITS_DELAY_2)
-
-    credits.begin_credits()
-    credits.add_credit(0x80, 0x80, 0xc0, 'NONE OF THIS WOULD BE POSSIBLE.')
-    credits.end_credits(END_CREDITS_DELAY_1, END_CREDITS_DELAY_2)
-
-    credits.begin_credits()
-    credits.add_credit(0x80, 0x80, 0xc0, 'STATS...COMING SOON')
-    credits.end_credits(END_CREDITS_DELAY_1, END_CREDITS_DELAY_2)
-
-    credits.begin_credits()
-    credits.add_credit(0x80, 0x80, 0xc0, 'MEMES...COMING SOON')
-    credits.end_credits(END_CREDITS_DELAY_1, END_CREDITS_DELAY_2)
-
-    credits.begin_titles(BEGIN_TITLES_DELAY)
-    credits.add_title(0x80, 0x00, 0x08, 'SPECIAL MESSAGE FROM THE DEVS')
-    credits.end_titles(END_TITLES_DELAY)
-
-    dev_line1, dev_line2, dev_line3 = random.choice(DEV_MESSAGES)
-    credits.begin_credits()
-    credits.add_credit(0x80, 0x80, 0xc0, dev_line1)
-    credits.add_credit(0x80, 0x40, 0x81, dev_line2)
-    credits.add_credit(0x80, 0x00, 0xc2, dev_line3)
-
-    credits.end_thing(END_CREDITS_DELAY_1) # Yeah, my abstraction breaks at the end.
+    credits.end_thing(END_CREDITS_DELAY_1)
 
     return credits.finalize()
