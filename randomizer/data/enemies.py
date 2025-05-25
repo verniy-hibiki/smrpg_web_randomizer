@@ -6094,7 +6094,7 @@ class Birdo(Enemy):
     battle_solidity = [11, 11, 13]
     overworld_y_shift = 0
     battle_y_shift = 1
-    name_override = 'BIRDETTA'
+    name_override = 'BIRDO'
 
 
 class Eggbert(Enemy):
