@@ -304,7 +304,7 @@ def update_credits(world):
     credits.begin_credits()
     credits.add_credit(0x80, 0x80, 0xc0, 'T. KURIBAYASHI')
     credits.add_credit(0x80, 0x40, 0x81, 'H. YAMADA     ')
-    credits.add_credit(0x80, 0x00, 0xc2, 'K. KONDO      ')
+    credits.add_credit(0x80, 0x00, 0xc2, 'HIDEO KOJIMA      ')
     credits.end_credits(END_CREDITS_DELAY_1, END_CREDITS_DELAY_2)
 
     credits.begin_titles(BEGIN_TITLES_DELAY)
